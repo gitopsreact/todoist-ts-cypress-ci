@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/darylwalsh/todoist-ts-cypress-ci/compare/v0.1.5...v0.1.6) (2019-08-29)
+
+
+### Features
+
+* **firebase_setup:** initial firebase setup and add init hooks ([51c4cf3](https://github.com/darylwalsh/todoist-ts-cypress-ci/commit/51c4cf3))
+
 ### [0.1.5](https://github.com/gitopsreact/todoist-ts-cypress-ci/compare/v0.1.4...v0.1.5) (2019-08-27)
 
 ### [0.1.4](https://github.com/darylwalsh/todoist-ts-cypress-ci/compare/v0.1.3...v0.1.4) (2019-08-27)
