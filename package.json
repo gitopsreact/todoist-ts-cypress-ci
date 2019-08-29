@@ -1,6 +1,6 @@
 {
   "name": "hadwen-todoist-ts",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "private": true,
   "dependencies": {
     "@types/jest": "^24.0.18",
