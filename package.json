@@ -120,7 +120,7 @@
       "prettier --write",
       "git add"
     ],
-    "src/**/*.{js,jsx,css,less,scss,ts,tsx,md}": [
+    "src/**/*.{js,jsx,css,ts,tsx,md}": [
       "prettier --write",
       "eslint --fix",
       "git add"
