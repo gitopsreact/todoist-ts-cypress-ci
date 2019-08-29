@@ -2,8 +2,6 @@ import moment from 'moment'
 import React, { FC } from 'react'
 import { FaRegPaperPlane, FaSpaceShuttle, FaSun } from 'react-icons/fa'
 
-import { jsxAttribute } from '@babel/types'
-
 interface TaskInterface {
   setTaskDate: (arg0: string) => void
   showTaskDate: boolean | any

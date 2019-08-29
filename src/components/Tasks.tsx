@@ -1,4 +1,3 @@
-import { ExecSyncOptionsWithBufferEncoding } from 'child_process'
 import React, { FC, useEffect } from 'react'
 
 import { collatedTasks } from '../constants'
@@ -18,7 +17,8 @@ interface TasksInterface {
   taskname: string
   userId: string
 }
-export const Tasks: FC<TasksInterface> = () => {
+
+export const Tasks: FC<Partial<TasksInterface>> = () => {
   const { selectedProject } = useSelectedProjectValue()
   const { projects } = useProjectsValue()
   const { tasks } = useTasks(selectedProject)

@@ -1,4 +1,14 @@
-interface CollatedTasksObjectInterface {
+interface ProjectsInterface {
+  name?: string
+  projectId?: string
+  userId?: string
+  docId?: string
+  activeValue?: string
+  find?: any
+  key?: string
+}
+
+interface CollatedTasksObjectInterface extends ProjectsInterface {
   key: string
   name: string
 }

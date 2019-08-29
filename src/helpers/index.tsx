@@ -3,18 +3,18 @@ import { FC } from 'react'
 import { collatedTasks } from '../constants'
 
 interface ProjectsInterface {
-  name: string
-  projectId: string
-  userId: string
-  docId: string
-  activeValue: string
-  find: any
-  key: string
+  name?: string
+  projectId?: string
+  userId?: string
+  docId?: string
+  activeValue?: string
+  find?: any
+  key?: string
 }
-export const getTitle: FC<ProjectsInterface> = (projects, projectId) =>
+export const getTitle = (projects: ProjectsInterface, projectId: string) =>
   projects.find((project: ProjectsInterface) => project.projectId === projectId)
 
-export const getCollatedTitle: FC<ProjectsInterface> = (projects, key) =>
+export const getCollatedTitle = (projects: ProjectsInterface, key: string) =>
   projects.find((project: ProjectsInterface) => project.key === key)
 
 export const collatedTasksExist = (selectedProject: string) =>
